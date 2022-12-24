@@ -6,6 +6,7 @@ android {
     defaultConfig {
         applicationId "com.appifie.digitalbank"
         minSdkVersion 14
+        //noinspection ExpiredTargetSdkVersion
         targetSdkVersion 19
         compileOptions {
             sourceCompatibility JavaVersion.VERSION_1_8
