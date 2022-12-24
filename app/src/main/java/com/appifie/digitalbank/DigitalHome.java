@@ -31,7 +31,7 @@ public class DigitalHome extends Activity implements OnClickListener {
 	protected void onCreate(Bundle savedInstanceState) {
 
 		super.onCreate(savedInstanceState);
-		getActionBar().hide();
+//		getActionBar().hide();
 
 		setContentView(R.layout.activity_digital_home);
 
