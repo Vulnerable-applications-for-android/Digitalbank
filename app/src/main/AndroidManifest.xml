@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.appifie.digitalbank"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0">
 
     <uses-sdk
         android:minSdkVersion="8"
@@ -12,10 +12,10 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/Theme.Base.Light" >
+        android:theme="@style/Theme.AppCompat.Light">
         <activity
             android:name=".SplashScreen"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,7 +25,7 @@
         <activity
             android:name=".DigitalHome"
             android:label="@string/app_name"
-            android:theme="@style/Theme.Base.AppCompat.Light" >
+            android:theme="@style/Theme.AppCompat.Light">
             <intent-filter>
                 <action android:name="android.com.appifie.DigitalHome" />
 
@@ -35,7 +35,7 @@
         <activity
             android:name=".AccountInfo"
             android:label="@string/app_name"
-            android:theme="@style/Theme.Base.AppCompat.Light" >
+            android:theme="@style/Theme.AppCompat.Light">
             <intent-filter>
                 <action android:name="android.com.appifie.AccountInfo" />
 
@@ -45,7 +45,7 @@
         <activity
             android:name=".MoneyTransfer"
             android:label="@string/app_name"
-            android:theme="@style/Theme.Base.AppCompat.Light" >
+            android:theme="@style/Theme.AppCompat.Light">
             <intent-filter>
                 <action android:name="android.com.appifie.MoneyTransfer" />
 
